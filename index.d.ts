@@ -1,7 +1,7 @@
 export as namespace IonicStatusBarDecorators;
 
-export function HideStatusBar(): void;
+export function HideStatusBar(): ClassDecorator;
 
-export function ShowDarkStatusBar(): void;
+export function ShowDarkStatusBar(): ClassDecorator;
 
-export function ShowLightStatusBar(): void;
+export function ShowLightStatusBar(): ClassDecorator;
