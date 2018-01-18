@@ -36,4 +36,18 @@ And that's it! Note that following important points:
 You can pass the following options to `ShowStatusBar`:
 
 __color__: Either `light` or `dark`.
- 
+
+## Setting Up the Example
+
+Within the `example` directly run the following commands:
+
+```shell
+npm install
+
+ionic cordova prepare
+
+ionic cordova run ios
+```
+
+This will install the necessary dependencies and spool up an iOS simulator instance for you. 
+
