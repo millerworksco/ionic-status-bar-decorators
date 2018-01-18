@@ -1,6 +1,6 @@
 {
   "name": "ionic-status-bar-decorators",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Decorators for use in your Ionic 2+ application that make tuning the status bar a breeze.",
   "main": "index.js",
   "scripts": {
