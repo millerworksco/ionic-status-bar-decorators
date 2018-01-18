@@ -1,4 +1,4 @@
-export default function HideStatusBar() {
+export default function HideStatusBar(): ClassDecorator {
   return (target) => {
     const originalIonViewWillEnter = target.prototype.ionViewWillEnter
 

@@ -1,14 +1,11 @@
 import { StatusBarOptions } from "../index.d";
-import { StatusBar } from "@ionic-native/status-bar";
 
-export default function ShowStatusBar(options: StatusBarOptions) {
+export default function ShowStatusBar(options: StatusBarOptions): ClassDecorator {
   return (target) => {
     const originalIonViewWillEnter = target.prototype.ionViewWillEnter
 
     target.prototype.ionViewWillEnter = function () {
       if (this.statusBar) {
-        const statusBar: StatusBar = this.statusBar
-
         this.statusBar.show()
 
         if (options.overlay) {
